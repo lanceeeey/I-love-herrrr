@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff0f5;
+  margin-top: 80px;
+}
+
+h1 {
+  color: #ff5c8a;
+  font-size: 2em;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+#yesBtn {
+  background-color: #ff69b4;
+  color: white;
+}
+
+#noBtn {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#memeContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+#memeContainer img {
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
